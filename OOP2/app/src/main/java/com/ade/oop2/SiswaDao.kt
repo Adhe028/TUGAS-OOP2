@@ -13,8 +13,8 @@ interface SiswaDao {
     @Query("SELECT * FROM siswa WHERE nis IN (:userIds)")
     fun loadAllByIds(userIds: IntArray): List<Siswa>
 
-    @Query("SELECT * FROM mahasiswa WHERE nama LIKE :nama AND " +
-            "prodi LIKE :prodi LIMIT 1")
+    @Query("SELECT * FROM siswa WHERE nama LIKE :nama AND " +
+            "kelas LIKE :kelas LIMIT 1")
     fun findByName(nama: String, kelas: String): Siswa
 
     @Insert
