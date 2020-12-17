@@ -8,7 +8,7 @@ interface GuruDao {
     @Query("SELECT * FROM guru")
     fun getAll(): List<Guru>
 
-    @Query("SELECT * FROM guru WHERE nis IN (:userIds)")
+    @Query("SELECT * FROM guru WHERE nipy IN (:userIds)")
     fun loadAllByIds(userIds: IntArray): List<Guru>
 
     @Query("SELECT * FROM guru WHERE nama LIKE :nama AND " +
