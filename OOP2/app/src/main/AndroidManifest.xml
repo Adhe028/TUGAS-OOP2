@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EditSiswa"></activity>
+        <activity android:name=".HapusGuru"></activity>
+        <activity android:name=".hapusGuruu" />
+        <activity android:name=".EditSiswa" />
         <activity android:name=".MainActivityEditGuru" />
         <activity android:name=".MainActivity">
             <intent-filter>
