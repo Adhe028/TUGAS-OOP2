@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HapusGuru"></activity>
+        <activity android:name=".HapusSiswa"></activity>
+        <activity android:name=".HapusGuru" />
         <activity android:name=".hapusGuruu" />
         <activity android:name=".EditSiswa" />
         <activity android:name=".MainActivityEditGuru" />
