@@ -1,4 +1,4 @@
-package com.ade.oop2
+package com.imamfrf.roomcrud
 
 import org.junit.Test
 

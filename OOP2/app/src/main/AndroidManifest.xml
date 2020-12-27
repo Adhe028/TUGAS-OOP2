@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ade.oop2">
+    package="com.imamfrf.roomcrud">
 
     <application
         android:allowBackup="true"
@@ -9,11 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HapusSiswa"></activity>
-        <activity android:name=".HapusGuru" />
-        <activity android:name=".hapusGuruu" />
-        <activity android:name=".EditSiswa" />
-        <activity android:name=".MainActivityEditGuru" />
+        <activity android:name=".EditActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
