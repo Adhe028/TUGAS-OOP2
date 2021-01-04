@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ade.oop2.ViewSiswa">
+    tools:context="com.ade.oop2.ViewGuru">
 
 
     <TextView
-        android:id="@+id/text_view_siswa_empty"
+        android:id="@+id/text_view_guru_empty"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Siswa Empty"
+        android:text="Guru Empty"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +24,7 @@
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp"
-        tools:listitem="@layout/list_item_siswa" />
+        tools:listitem="@layout/list_item_guru" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"

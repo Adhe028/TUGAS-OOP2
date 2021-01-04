@@ -18,7 +18,7 @@ class ViewSiswa : AppCompatActivity() {
         getSiswaData()
 
         floatingActionButton.setOnClickListener {
-            startActivity(Intent(this, EditSiswaActivity::class.java))
+            startActivity(Intent(this, EditSiswa::class.java))
         }
 
     }
@@ -41,8 +41,8 @@ class ViewSiswa : AppCompatActivity() {
         recycler_view_main.apply {
             adapter = SiswaAdapter(listItems, object : SiswaAdapter.SiswaListener{
                 override fun OnItemClicked(siswa: Siswa) {
-                    val intent = Intent(this@ViewSiswa, EditSiswaActivity::class.java)
-                    intent.putExtra(EditSiswaActivity().EDIT_SISWA_EXTRA, siswa)
+                    val intent = Intent(this@ViewSiswa, EditSiswa::class.java)
+                    intent.putExtra(EditSiswa().EDIT_SISWA_EXTRA, siswa)
                     startActivity(intent)
                 }
             })

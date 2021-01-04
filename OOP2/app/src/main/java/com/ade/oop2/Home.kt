@@ -15,5 +15,12 @@ class Home : AppCompatActivity() {
 
             startActivity(go)
         }
+
+        btn_guru.setOnClickListener {
+
+            val go = Intent(this@Home, ViewGuru::class.java)
+
+            startActivity(go)
+        }
     }
 }

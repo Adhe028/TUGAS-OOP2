@@ -8,7 +8,7 @@
     android:paddingBottom="8dp"
     android:paddingStart="16dp"
     android:paddingEnd="16dp"
-    tools:context="com.ade.oop2.EditSiswa"
+    tools:context="com.ade.oop2.EditGuru"
     >
 
     <com.google.android.material.textfield.TextInputLayout
@@ -36,7 +36,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/text_input_layout_nis"
+        android:id="@+id/text_input_layout_nip"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="NIS"
@@ -47,7 +47,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edit_text_nis"
+            android:id="@+id/edit_text_nip"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -60,18 +60,18 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/text_input_layout_kelas"
+        android:id="@+id/text_input_layout_ngajar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="kelas"
+        android:hint="Ngejar"
         app:layout_constraintBottom_toBottomOf="@+id/button_save"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_input_layout_nis"
+        app:layout_constraintTop_toBottomOf="@+id/text_input_layout_nip"
         app:layout_constraintVertical_bias="0.0">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edit_text_kelas"
+            android:id="@+id/edit_text_ngajar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RoomCRUD.iml" filepath="$PROJECT_DIR$/.idea/modules/RoomCRUD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RoomCRUD.iml" filepath="$PROJECT_DIR$/.idea/modules/RoomCRUD.iml" group="RoomCRUD" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RoomCRUD.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RoomCRUD.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="RoomCRUD/app" />
     </modules>
   </component>
 </project>

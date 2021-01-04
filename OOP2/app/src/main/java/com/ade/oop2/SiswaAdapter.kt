@@ -13,7 +13,7 @@ class SiswaAdapter(
 ) : RecyclerView.Adapter<SiswaAdapter.SiswaViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SiswaViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.list_item, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.list_item_siswa, parent, false)
         return SiswaViewHolder(view)
     }
 

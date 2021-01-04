@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ViewSiswa"></activity>
-        <activity android:name=".EditSiswaActivity" />
+        <activity android:name=".ViewGuru"></activity>
+        <activity android:name=".GuruAdapter" />
+        <activity android:name=".EditGuru" />
+        <activity android:name=".ViewSiswa" />
+        <activity android:name=".EditSiswa" />
         <activity android:name=".Home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

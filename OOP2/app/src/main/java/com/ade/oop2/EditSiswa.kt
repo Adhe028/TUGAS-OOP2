@@ -9,7 +9,7 @@ import com.ade.oop2.db.SiswaRoomDatabase
 import com.ade.oop2.model.Siswa
 import kotlinx.android.synthetic.main.activity_edit_siswa.*
 
-class EditSiswaActivity : AppCompatActivity() {
+class EditSiswa : AppCompatActivity() {
 
     val EDIT_SISWA_EXTRA = "edit_siswa_extra"
     private lateinit var siswa: Siswa

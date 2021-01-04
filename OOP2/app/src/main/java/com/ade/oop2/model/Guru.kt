@@ -16,7 +16,7 @@ data class Guru(
     @PrimaryKey(autoGenerate = true)@ColumnInfo(name = "id") var id: Int = 0,
     @ColumnInfo(name = "nama") var nama: String = "",
     @ColumnInfo(name = "nip") var nip: String = "",
-    @ColumnInfo(name = "kelas") var kelas: String = ""
+    @ColumnInfo(name = "ngajar") var ngajar: String = ""
 
 ) : Parcelable {
 }
